@@ -1,0 +1,18 @@
+{
+  "name": "scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^0.24.0",
+    "node-wikipedia": "0.0.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "stripe": "^6.22.0"
+  }
+}

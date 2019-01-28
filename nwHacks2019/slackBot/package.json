@@ -1,0 +1,21 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "Slackbot that splits the bill!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "George",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "slackbots": "^1.2.0",
+    "@slack/client": "3.9.0",
+    "dotenv": "^4.0.0",
+    "graceful-fs": "^4.1.11",
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0",
+    "watson-developer-cloud": "^2.28.1"
+  }
+}
